@@ -1,0 +1,28 @@
+Android Helper — version 4
+
+1. Extract the entire ZIP. Run START.bat or AndroidHelper.exe.
+   Python is bundled. Install MuMu separately.
+2. Enable Root and ADB → Enable local connection in MuMu.
+3. Click Open Google sign-in and wait for the screen to load in MuMu.
+   If Android shows an account provider list, select Google.
+   Sign in or create your account manually in MuMu.
+4. Open Google One in MuMu. Install Google One opens its Play Store page.
+5. Click Check connection and check the selected Play Store account.
+   Use the step buttons in order and check the result in MuMu.
+
+EN / RU at the top right switches the interface and future log messages.
+Existing log entries keep their original language.
+The theme button switches between light and dark.
+Both preferences are saved to %LOCALAPPDATA%\AndroidHelper\settings.json.
+
+The app opens Google sign-in. It does not enter credentials or click Next.
+After opening sign-in, check the connection again before running a step.
+Google's own screen supports signing in and creating an account.
+
+The original subscription functions are retained: the script may confirm
+a detected zero price. Watch the price and period in MuMu and check the
+next payment date after each step. Open subscriptions opens a separate page.
+
+Logs and reports: %LOCALAPPDATA%\AndroidHelper.
+Source code: src/. Rebuild: build.ps1. Integrity check: verify-files.ps1.
+Offer availability depends on Google and the selected account.
